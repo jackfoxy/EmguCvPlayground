@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--<TargetFrameworks>net472;netcoreapp2.1</TargetFrameworks>-->
+    <TargetFrameworks>net472</TargetFrameworks>
+    <RootNamespace>EmguCvPlaygroundConsole</RootNamespace>
+    <AssemblyName>EmguCvPlaygroundConsole</AssemblyName>
+    <Name>EmguCvPlaygroundConsole</Name>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CommandLine.fsi" />
+    <Compile Include="CommandLine.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmguCvPlayground\EmguCvPlayground.fsproj"></ProjectReference>
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

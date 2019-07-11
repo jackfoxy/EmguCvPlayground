@@ -1,0 +1,29 @@
+type file
+id EmguCvPlayground
+title
+    EmguCvPlayground
+owners
+    Jack Fox
+authors 
+    Jack Fox
+projectUrl
+    https://github.com/jackfoxy/EmguCvPlayground
+iconUrl
+    https://raw.githubusercontent.com/jackfoxy/EmguCvPlayground/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/jackfoxy/EmguCvPlayground/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+language
+    F#
+copyright
+    Copyright 2017
+tags
+    openCV F#
+summary
+    EmguCvPlayground
+description
+    EmguCvPlayground
+
+files
+	../../bin/EmguCvPlayground ==> lib
